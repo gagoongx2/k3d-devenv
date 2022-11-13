@@ -88,6 +88,7 @@ Set true to local.push in build spec of skaffold config to push image whenever i
 
 Run skaffold with `--default-repo` to use k3d image registry
 ```bash
+cd skaffold/getting-started
 skaffold dev --default-repo=k3d-registry.localhost:12345
 
 latest: digest: sha256:a190da480a174d71ccb2fb0d7fa1e87f22c3b6d0597490d7dfb42adf489a552a size: 739
