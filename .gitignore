@@ -1,0 +1,7 @@
+.DS_Store
+*.tfstate
+*.tfstate.backup
+.terraform
+.terraform.lock.hcl
+
+local-k8s-config

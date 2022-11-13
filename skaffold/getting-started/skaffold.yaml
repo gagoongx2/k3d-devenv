@@ -1,0 +1,10 @@
+apiVersion: skaffold/v3
+kind: Config
+build:
+  artifacts:
+  - image: skaffold-example
+  local:
+    push: true
+manifests:
+  rawYaml:
+  - k8s-pod.yaml
